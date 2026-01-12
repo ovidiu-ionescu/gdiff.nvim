@@ -3,11 +3,11 @@
 A lightweight Neovim plugin to perform side-by-side Git diffs against any branch, featuring high-visibility statusline integration and automatic UI cleanup.
 ## ✨ Features
 
-- Side-by-Side Comparison: Compare your current buffer with any Git branch in a vertical split.
-- Intelligent Statusline: Displays the current branch on the left and the reference branch (e.g., master) on the right using Lualine.
-- Branch Autocomplete: Full tab-completion for local and remote Git branches.
-- Automatic Cleanup: Closing the reference window automatically turns off diff mode in the original buffer.
-- Clean UI: Automatically hides line numbers and sign columns in the reference buffer to maximize code visibility.
+- **Side-by-Side Comparison:** Compare your current buffer with any Git branch in a vertical split.
+- **Intelligent Statusline:** Displays the current branch on the left and the reference branch (e.g., master) on the right using Lualine.
+- **Branch Autocomplete:** Full tab-completion for local and remote Git branches.
+- **Automatic Cleanup:** Closing the reference window automatically turns off diff mode in the original buffer.
+- **Clean UI:** Automatically hides line numbers and sign columns in the reference buffer to maximize code visibility.
 
 ## 📦 Installation
 
@@ -35,8 +35,8 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim)
 ### Commands
 Command | Description
 :-- | :--
-`:Gdiff <branch> | Opens a vertical split comparing current file to `<branch>`.
-`Gdiff` | Defaults to comparing against `master`.
+`:Gdiff <branch>` | Opens a vertical split comparing current file to `<branch>`.
+`:Gdiff` | Defaults to comparing against `master`.
 
 ### Keybindings
 
@@ -63,6 +63,9 @@ require('lualine').setup({
 - Neovim 0.8+
 - Git installed in your system path.
 - [Nerd Fonts](https://www.nerdfonts.com/) (optional, for branch icons).
+
+## 📄 License
+[AGPL v3](LICENSE)
 
 
 
