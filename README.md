@@ -8,6 +8,8 @@ A lightweight Neovim plugin to perform side-by-side Git diffs against any branch
 - **Branch Autocomplete:** Full tab-completion for local and remote Git branches.
 - **Automatic Cleanup:** Closing the reference window automatically turns off diff mode in the original buffer.
 - **Clean UI:** Automatically hides line numbers and sign columns in the reference buffer to maximize code visibility.
+<img width="1464" height="912" alt="gdiff_nvim" src="https://github.com/user-attachments/assets/d99e0b31-2e16-4387-b27d-010ad36a7e1c" />
+
 
 ## 📦 Installation
 
